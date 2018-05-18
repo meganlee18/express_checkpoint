@@ -62,7 +62,7 @@ First, the project requires body-parser which is a NPM file which needs to be do
 
 Second, the app looks and returns for middleware that parses JSON
 
-Third, the app looks and returns middleware that parses urlencoded bodies
+Third, the app looks and returns middleware that parses urlencoded stuff/data??
 
 ```
 
@@ -83,11 +83,43 @@ The `BankAccount` class has a `transactionHistory` property which keeps track of
 * Make sure to indicate whether the transaction increased or decreased the amount of money in the bank.
 
 ```text
-Your answer...
+
+var BankAccount = class {
+
+  constructor() {
+    this.type = type;
+    this.balance = balance
+    this.transactionHistory = transactionHistory
+  }
+
+  withdraw(num) {
+    return this.balance - num
+  }
+
+  deposit(num) {
+    return this.balance + num
+  }
+
+  showBalance() {
+    return this.balance;
+  }
+}
+
 ```
 
 Create an instance of the BankAccount class
 
 ```text
-Your answer...
+
+function BankAccount() {
+
+  this.type = type;
+  this.balance = balance;
+  this.transactionHistory = transactionHistory;
+  this.withdraw = function(num) {this.balance - num};
+  this.deposit = function(num) {this.balance + num};
+  this.showBalance = function(num) {this.balance};
+}
+  console.log(BankAccount.showBalance())
+
 ```
