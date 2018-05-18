@@ -41,7 +41,10 @@ app.delete(',', function (req,res) {
 Describe the differences between Express and Rails as backend frameworks.
 
 ```text
-Your answer...
+1. Express is used for JavaScript while Rails is used for Ruby.
+2. Rails is a bigger framework than Express
+3. Rails is built with convention in mind e.g users have to follow conventions e.g creating and naming them in specific ways. Express is unopinionated e.g you can create your own files and name them whatever you want, however you want.
+4. Ruby gems are global e.g installation takes place once. Express npm files are local which mean users have to download and install them each time they work on a project.
 ```
 
 ### Question 4
