@@ -5,7 +5,7 @@
 What is `module.exports` and why do we use it?
 
 ```text
-Your answer...
+This is necessary if user wants to use a function that is declared on another page on a new page. Having 'module.exports' declared tells the page to look up the function specified on another page and allows the function to be used.
 ```
 
 ### Question 2
