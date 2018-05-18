@@ -58,7 +58,12 @@ app.use(bodyParser.urlencoded({extended: true}))
 ```
 
 ```text
-Your answer...
+First, the project requires body-parser which is a NPM file which needs to be downloaded and installed for the project.
+
+Second, the app looks and returns for middleware that parses JSON
+
+Third, the app looks and returns middleware that parses urlencoded bodies
+
 ```
 
 ### Question 5
